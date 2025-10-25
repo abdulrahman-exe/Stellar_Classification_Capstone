@@ -21,7 +21,13 @@
 To build a robust, reproducible, and interpretable end-to-end pipeline for classifying stellar objects, deployable as an easy-to-use web application.
 
 ---
+## 📓 Notebooks
 
+- **[EDA Notebook](notebooks/EDA.ipynb)** - Exploratory Data Analysis
+- **[Complete Pipeline Notebook](https://nbviewer.org/github/abdulrahman-exe/Stellar_Classification_Capstone/blob/main/notebooks/Stellar_Classification_Capstone_Complete.ipynb)** - Full end-to-end workflow *(View on nbviewer)*
+
+
+---
 ## 🚀 Key Features
 
 * **🌌 Data Processing:** Automated pipeline for loading, validating, cleaning (handling `-9999` values), engineering new features (color indices, magnitude stats), and splitting SDSS data while preventing data leakage.
