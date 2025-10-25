@@ -1,17 +1,18 @@
 # 🔭 Stellar Classify Pro: End-to-End Stellar Object Classification 🌟
 
 [![Python Version](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://www.python.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-purple.svg)](LICENSE) [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_violet_white.svg)](https://abdulrahmansami_exe-stellar-classification-capstone.streamlit.app/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-purple.svg)](LICENSE) 
+[![Open in Streamlit](https://img.shields.io/badge/Open%20in%20Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://abdulrahmansami-exe-stellar-classification-capstone.streamlit.app)
 
 **Classify the cosmos!** This project provides a complete machine learning pipeline to categorize celestial objects (Stars ⭐, Galaxies 🌌, Quasars ✨) using data from the Sloan Digital Sky Survey (SDSS). It covers the entire workflow: data ingestion, cleaning, feature engineering, model training & comparison, deployment via an interactive Streamlit app, and in-depth model interpretability using SHAP.
 
 ---
 
-## ✨ Live Demo
+### 🌐 Live Demo
 
-Experience the classification system live:
+**[🔭 Try the Streamlit App](https://abdulrahmansami-exe-stellar-classification-capstone.streamlit.app)**
 
-**[🚀 Launch Streamlit App](https://abdulrahmansami_exe-stellar-classification-capstone.streamlit.app/)**
+![Streamlit App Demo](assets/streamlit_demo.gif)
 
 ---
 
@@ -118,7 +119,7 @@ Stellar_Classification_Capstone/
 ├── requirements.txt               # Python package dependencies
 └── run_pipeline.py                # Script to execute the full training pipeline
 ---
-
+```
 ## 📊 Results
 
 The **Random Forest Classifier** (within the Scaler -> SMOTE -> Classifier pipeline) emerged as the top performer, achieving:
