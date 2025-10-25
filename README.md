@@ -7,11 +7,11 @@
 
 ---
 
-## ✨ Live Demo
+### 🌐 Live Demo
 
-Experience the classification system live:
+**[🔭 Try the Streamlit App](STREAMLIT_URL_HERE)**
 
-**[🚀 Launch Streamlit App](https://abdulrahmansami_exe-stellar-classification-capstone.streamlit.app/)**
+![Streamlit App Demo](assets/streamlit_demo.gif)
 
 ---
 
@@ -118,7 +118,7 @@ Stellar_Classification_Capstone/
 ├── requirements.txt               # Python package dependencies
 └── run_pipeline.py                # Script to execute the full training pipeline
 ---
-
+```
 ## 📊 Results
 
 The **Random Forest Classifier** (within the Scaler -> SMOTE -> Classifier pipeline) emerged as the top performer, achieving:
