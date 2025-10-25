@@ -1,0 +1,39 @@
+{
+    "project": "Stellar Classification",
+    "best_model": "Random Forest",
+    "test_accuracy": 0.9775,
+    "f1_macro": 0.9741653349856104,
+    "top_features": [
+        "redshift",
+        "r_i",
+        "g_r",
+        "mag_std",
+        "color_variation"
+    ],
+    "feature_importance": {
+        "redshift": 0.4793577010812151,
+        "r_i": 0.11912325678413473,
+        "g_r": 0.09669571292931027,
+        "mag_std": 0.06597382381402914,
+        "color_variation": 0.04241599643252786,
+        "i_z": 0.04205424649305573,
+        "u_g": 0.03699547532149186,
+        "z": 0.027134494279155808,
+        "g": 0.026750571712504896,
+        "i": 0.02162162099409821
+    },
+    "deployment_ready": true,
+    "deployment_checks_passed": 5,
+    "total_checks": 5,
+    "outlier_rate": 5.0,
+    "top_5_cumulative_importance": 80.35664910412169,
+    "most_consistent_feature": "redshift",
+    "consistency_score": 2.116597315219608,
+    "num_classes": 3,
+    "class_names": [
+        "GALAXY",
+        "QSO",
+        "STAR"
+    ],
+    "timestamp": "2025-10-24T20:32:50.746453"
+}

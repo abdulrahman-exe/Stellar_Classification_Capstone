@@ -1,0 +1,30 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# IDE files
+.vscode/
+.idea/
+
+# Data (if too large or sensitive)
+# data/raw/
+# data/processed/
+
+# Saved models (if too large - consider Git LFS or alternative storage)
+# saved_models/*.pkl
+
+# Logs
+*.log
+
+# Reports (optional, maybe keep figures?)
+# reports/*.csv
+# reports/*.json
+
+# OS files
+.DS_Store
+Thumbs.db

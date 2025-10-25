@@ -1,0 +1,3 @@
+"""Stellar Classification Package"""
+__version__ = "1.0.0"
+__author__ = "AbdulRahman Sami"
